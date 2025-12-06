@@ -18,11 +18,3 @@ body
     outline: none;
 }
 
-gui.domElement.style.position = 'fixed';
-gui.domElement.style.bottom = '10px';       // afstand van onderkant
-gui.domElement.style.left = '50%';          // horizontaal midden
-gui.domElement.style.transform = 'translateX(-50%)'; // centreren
-gui.domElement.style.background = 'rgba(0,0,0,0.7)'; // semi-transparant
-gui.domElement.style.padding = '10px';      // wat ruimte binnenin
-gui.domElement.style.borderRadius = '8px';  // afgeronde hoeken
-gui.domElement.style.zIndex = '1000';       // altijd boven andere elementen
